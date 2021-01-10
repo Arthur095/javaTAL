@@ -1,1 +1,1 @@
-Intiation java pour Inalco
+Rendu du projet pour le cours Programmation orientée objet du master 2 TAL inalco.
