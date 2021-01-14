@@ -40,8 +40,10 @@ public class RegistreTest {
 		bibliothecaire.getRegistre().envoyerAmendeRetardataire();
 		bibliothecaire.getRegistre().encaisserAmendeRetardataire();
 		
+		String resultat2 = bibliothecaire.getRegistre().relancerEmprunteursEnRetard();
 		//THEN
-		assertTrue(resultat.equals("Michel Pertinent\n"));
+		assertTrue(resultat2.equals("Michel Pertinent\n"));
+		assertFalse(resultat.equals("Aucun client n'est en retard pour rendre son livre."));
 		
 	}
 	

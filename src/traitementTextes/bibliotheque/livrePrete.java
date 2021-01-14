@@ -16,8 +16,7 @@ public class livrePrete extends Livre {
 	private Etiquette etiquette;
 	
 	public livrePrete(Livre ancienLivre, Etiquette etiquette){
-		this.auteur = ancienLivre.getAuteur();
-		this.titre = ancienLivre.getTitre();
+		super(ancienLivre.getAuteur(), ancienLivre.getTitre());
 		this.etiquette = etiquette;
 	}
 	

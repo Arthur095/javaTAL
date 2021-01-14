@@ -199,10 +199,7 @@ class Registre {
 		}
 		else {
 			for(Client client : retardataires) {
-				ArrayList<livrePrete> livres = getEmprunts().get(client);
-				getEmprunts().remove(client, livres);
 				client.setAmande(true);
-				getEmprunts().put(client, livres);
 			}
 		}
 	}
@@ -218,10 +215,7 @@ class Registre {
 		else {
 			for(Client client : amendataires) {
 				if(client.isAmande() == true) {
-					ArrayList<livrePrete> livres = getEmprunts().get(client);
-					getEmprunts().remove(client, livres);
 					client.setAmande(false);
-					getEmprunts().put(client, livres);
 					this.caisseAmende += this.prixAmende;
 				}
 			}

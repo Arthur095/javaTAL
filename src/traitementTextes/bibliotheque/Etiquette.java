@@ -7,7 +7,7 @@ import java.util.List;
  * <li>String themes[] : Liste les thèmes possibles pour l'Etiquette.</li>
  * <li>List de String themesPossibles : String themes[] sous forme de liste pour faciliter la manipulation de son contenu.</li>
  * <li>String theme : Le thème passé en paramètre au constructeur lors de l'instanciation de l'objet.</li>
- * <li>bollean enAnglais : Indique si c'est anglais ou non.</li>
+ * <li>boolean enAnglais : Indique si c'est anglais ou non.</li>
  * </ul>
  */
 public class Etiquette { 

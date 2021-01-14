@@ -5,8 +5,8 @@ import java.io.Serializable;
 public class Livre implements Serializable  {
 
 	private static final long serialVersionUID = 1L;
-	protected Auteur auteur;
-	protected String titre;
+	private Auteur auteur;
+	private String titre;
 	private String resume;
 	private int anneePublication;
 	private int nbTomes;
